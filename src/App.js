@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <ItemListContainer greeting = ' Hola Golfistas' />
+      <ItemListContainer greeting = ' Mundo golf' />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
