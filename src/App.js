@@ -14,23 +14,20 @@ function App() {
   
  
 
-       <BrowserRouter>
-       <NavBar />
+         <BrowserRouter>
+              <NavBar />
       
-        <Routes>
+             <Routes className>
 
-          <Route path ='/' element={ <ItemListContainer /> } />
-          <Route path ='/category/:categoryId' element={ <ItemListContainer /> } />
-          <Route path ='/detail/:productId' element={ <ItemDetailContainer /> } />
+                  <Route path ='/' element={ <ItemListContainer /> } />
+                  <Route path ='/category/:categoryId' element={ <ItemListContainer /> } />
+                  <Route path ='/detail/:productId' element={ <ItemDetailContainer /> } />
 
-        </Routes>
+              </Routes>
       
       
-      </BrowserRouter>  
+          </BrowserRouter>  
       
-     
-
-
     </div>
   );
 }

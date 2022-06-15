@@ -1,0 +1,18 @@
+
+
+.Titulo{
+
+    font-size: 70px;
+    text-decoration: overline;
+}
+
+.CajaMenu {
+
+    width: fit-content;
+    height: fit-content;
+    display: inline;
+    background-color: rgb(76, 198, 198);
+    border-color: black;
+
+    
+}

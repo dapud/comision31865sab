@@ -1,0 +1,59 @@
+.imagenes {
+
+
+    width: 15rem;
+    height: auto;
+    size: 20px;
+    text-align: center;
+
+}
+
+.CardsProductos {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(23, 57, 57);
+    width: 100%;
+    padding: 5px;
+   
+   
+    
+}
+.Parrafos {
+
+    color: aqua;
+    text-transform: uppercase;
+}
+.ParrafoCaracter {
+    color: aliceblue;
+
+}
+
+.CardPrincipal {
+
+    /* width: 1450px;
+    display:contents;
+    flex-flow:row; */
+   
+    width: 100%;
+    height: auto;
+    background-color: rgb(98, 18, 59);
+    
+
+    
+}
+
+
+.li_Cards {
+    width: 33.3%;
+    background-color: rgb(214, 214, 26);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: row;
+
+    
+
+
+} 

@@ -1,15 +1,15 @@
-const ItemDetail = ({ name  }) =>{
 
-    return(
+const ItemDetail = ({ description}) =>{
+    
+    return( 
+         <>
+                 {description}
+          </>
+          
+ )
 
-        <>
-            <h2> Card de Caracteristicas</h2>
-            {name}
-            
-            
-        </>
-
-    )
 }
+
+
 
 export default ItemDetail
