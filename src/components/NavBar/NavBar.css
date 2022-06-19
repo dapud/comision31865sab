@@ -12,7 +12,23 @@
     height: fit-content;
     display: inline;
     background-color: rgb(76, 198, 198);
-    border-color: black;
+ 
+}
 
+.LogoCart {
     
+    justify-content: center;
+
+    height: 64px;
+    width: 300px;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    
+
+}
+img {
+    height: 30%;
+    width: 30%;
+    object-fit: contain;
 }

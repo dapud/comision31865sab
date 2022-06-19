@@ -1,11 +1,11 @@
 const products = [
-    { id: '1', name: 'Driver Ping', price: 95000 , category: 'Driver' , img: '/images/driverPing.jpg' , stock: 20, description: 'Driver ping g425 max, 10.5 de loft, vara alta regular de 55 gramos' },
+    { id: '1', name: 'Driver Ping', price: 95000 , category: 'Driver' , img: '/images/driverPing.jpg' , stock: 20, description: 'Driver ping g425 max, 10.5 de loft, vara alta regular de 55 gramos.' },
 
-    { id: '2', name: 'Guante Srixon', price: 3000 , category: 'Accesorios' , img: '/images/guantesrixon.jpg' , stock: 40, description: 'Guante Cuero Srixon' },
+    { id: '2', name: 'Guante Srixon', price: 3000 , category: 'Accesorios' , img: '/images/guantesrixon.jpg' , stock: 40, description: 'El guante de cuero Srixon Cabretta es un guante de cuero de primera calidad que ofrece el mejor ajuste y rendimiento.' },
 
-    { id: '3', name: 'Set Hierros Calaway', price: 130000 , category: 'Hierros' , img: '/images/hierroCallaway.jpg' , stock: 10, description: 'Set Hierros Callaway 2022 flex' },
+    { id: '3', name: 'Set Hierros Calaway', price: 130000 , category: 'Hierros' , img: '/images/hierroCallaway.jpg' , stock: 10, description: ' Callaway Golf STEELHEAD XR 8 hierro, eje de acero, flexión tiesa, derecho.' },
 
-    { id: '4', name: 'Set Hierros Callaway Max', price: 135000 , category: 'Hierros' , img: '/images/hierroCallawayMax.jpg' , stock: 10, description: 'Set Hierros Callaway Max 2022 flex' },
+    { id: '4', name: 'Set Hierros Callaway Max', price: 135000 , category: 'Hierros' , img: '/images/hierroCallawayMax.jpg' , stock: 10, description: 'Set Hierros Callaway Max 2022 flex, eje de acero, flexión tiesa' },
 
     { id: '5', name: 'Set Callaway Apex', price: 150000 , category: 'Hierros' , img: '/images/hierrosCallawayApex.jpg' , stock: 20, description: 'Set Hierros Callaway Apex 2022 ultra ligth' },
 
@@ -25,7 +25,7 @@ const products = [
    
     { id: '13', name: 'Pelotas Golf Srixon', price: 19000 , category: 'Pelotas' , img: '/images/Pelotas Golf Srixon Softfeel.jpg' , stock: 20, description: 'Pelotas Golf Taylormade Noodle Caja X24 ' },
     
-    { id: '14', name: 'Pelotas Golf Taylormade Noodle Caja X24 ', price: 28000 , category: 'Pelotas' , img: '/images/Pelotas Golf Taylormade Noodle Caja X24 .jpg' , stock: 20, description: 'Pelotas Golf Taylormade Noodle Caja X24 ' },
+    { id: '14', name: 'Pelotas Golf Taylormade ', price: 28000 , category: 'Pelotas' , img: '/images/Pelotas Golf Taylormade Noodle Caja X24 .jpg' , stock: 20, description: 'Pelotas Golf Taylormade Noodle Caja X24 ' },
     
     { id: '15', name: 'Portaparaguas Golf ', price: 9000 , category: 'Accesorios' , img: '/images/Portaparaguas Golf.jpg' , stock: 20, description: 'Portaparaguas Golf  ' },
     
@@ -33,7 +33,7 @@ const products = [
     
     { id: '17', name: 'Driver Callaway Rogue St Max', price: 140000 , category: 'Driver' , img: '/images/Driver Callaway Rogue St Max D.jpg' , stock: 20, description: 'Portaparaguas Golf  ' },
     
-    { id: '18', name: 'Wedge Callaway Jaws Md5 Tour Grey', price: 55000 , category: 'Wedges' , img: '/images/Wedge Callaway Jaws Md5 Tour Grey.jpg' , stock: 20, description: 'Wedge Callaway Jaws Md5 Tour Grey' },
+    { id: '18', name: 'Wedge Callaway Jaws Md5 Tour', price: 55000 , category: 'Wedges' , img: '/images/Wedge Callaway Jaws Md5 Tour Grey.jpg' , stock: 20, description: 'Wedge Callaway Jaws Md5 Tour Grey' },
 
     { id: '19', name: 'Set Wedge', price: 45000 , category: 'Wedges' , img: '/images/Wedge Cleveland Rtx Zipcore Black.jpg' , stock: 20, description: 'Wedge Cleveland Rtx Zipcore Black' },
 

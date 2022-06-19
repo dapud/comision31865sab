@@ -1,18 +1,11 @@
-.listado {
-
-   
 
 
 
-    color: rgb(235, 241, 236);
-    width: 90%;
-    height: 90%;
+
+.Listado {
+    width: 100%;
     display: flex;
-    flex-flow: row-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-
-
-
-
-
 }
