@@ -8,15 +8,15 @@ const NavBar = () => {
     
         <nav className="NavBar">
 
-            <Link to={'/'}>
+                     <Link to={'/'}>
                
 
-                      <h1 className="Titulo"> Welldone Golf !!!</h1>
-                       <h3> Todo para el golfista</h3>
+                              <h1 className="Titulo"> Welldone Golf !!!</h1>
+                                      <h3> Todo para el golfista</h3>
                        
               
 
-            </Link>
+                      </Link>
 
             <div className="CajaMenu ">
 
@@ -28,11 +28,11 @@ const NavBar = () => {
                        
             </div>
 
-                         <div className="LogoCart">
+                 <div className="LogoCart">
 
-                             <CartWidget  />
-                             
-                         </div>
+                    <CartWidget  />
+
+                 </div>
 
 
           

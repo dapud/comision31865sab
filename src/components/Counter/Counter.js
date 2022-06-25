@@ -1,17 +1,17 @@
 import { useState } from "react"
-import Button from "../Button/Button"
-
+/* import Button from "../Button/Button"
+ */
 
 
 
 const Counter = ({initial, title, stock, onAdd}) => {
 
     const [count, setCount] = useState (initial)
+     
 
    const decrement = () => { 
          if (count>0)
   
-          
         setCount ( count - 1)
     }
 
