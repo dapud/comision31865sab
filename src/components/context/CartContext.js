@@ -28,11 +28,12 @@ export const CartProvider =({children}) => {
    
 
     const addItem =(productToAdd) => {
-      if(!cart.some(prod => prod.id === productToAdd.id)){
+     /*  if(!cart.some(prod => prod.id === productToAdd.id)){ */
+        if(!isInCart (productToAdd.id)){
         setCart([ ...cart, productToAdd])
 
       }
-
+   
     }
 
     
@@ -49,7 +50,7 @@ export const CartProvider =({children}) => {
         return cart.some (prod => prod.id === id)
     }
     
-   /*  const getCartQuantity =() => {
+    const getCartQuantity = () => {
 
         let totalQuantity = 0
 
@@ -59,7 +60,7 @@ export const CartProvider =({children}) => {
         })
 
         return totalQuantity 
-    } */
+    }
 
 
 
@@ -72,6 +73,7 @@ export const CartProvider =({children}) => {
         removeItem,
         isInCart,
         /* getCartQuantity */
+        
         
         }}>
 

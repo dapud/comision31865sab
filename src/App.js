@@ -1,4 +1,4 @@
-import react, {useState, createContext} from 'react' 
+/* import react, {useState, createContext} from 'react'  */
 import './App.css';
 import NavBar from './components/NavBar/Navbar'; 
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
@@ -30,6 +30,7 @@ function App() {
                            <Route path ='/' element={ <ItemListContainer /> } />
                            <Route path ='/category/:categoryId' element={ <ItemListContainer /> } />
                            <Route path ='/detail/:productId' element={ <ItemDetailContainer  /> } />
+                           <Route path ='/cart' element={<h1>CART</h1>}/>
                   
                          </Routes>
         

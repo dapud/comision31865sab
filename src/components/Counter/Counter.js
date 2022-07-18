@@ -3,7 +3,7 @@ import { useState } from "react"
  */
 
 
-
+/* 
 const Counter = ({initial, title, stock, onAdd}) => {
 
     const [count, setCount] = useState (initial)
@@ -24,8 +24,23 @@ const Counter = ({initial, title, stock, onAdd}) => {
     const reset = () => {
 
         setCount (initial)
-    }
+    } */
 
+
+    const ItemCount = ({title, stock = 0, initial = 1, onAdd})=> {
+        const [quantity, setQuantity] = useState(initial)
+     
+        const increment = () => {
+            if(quantity < stock) {
+                setQuantity(quantity+1)
+            }
+        }
+     
+        const decrement = () => {
+            if(quantity > 1) {
+                setQuantity(quantity - 1)
+            }     
+        }
     
 
     return(
@@ -37,9 +52,9 @@ const Counter = ({initial, title, stock, onAdd}) => {
               
                <button onClick={increment} > + </button>
           
-                <h2>{count}</h2>
+                <h2>{quantity}</h2>
 
-                <button onClick={() => onAdd(count)} > Agregar al Carrito </button>
+                <button onClick={() => onAdd(quantity)} > Agregar al Carrito </button>
                 
                 
 
@@ -49,4 +64,4 @@ const Counter = ({initial, title, stock, onAdd}) => {
 
 }
 
-export default Counter
+export default ItemCount

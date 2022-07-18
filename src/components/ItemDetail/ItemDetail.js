@@ -5,18 +5,18 @@ import CartContext from "../context/CartContext"
 
 const ItemDetail = ({ description, img, id,    name, price, stock })  =>{
 
-         const [countAdded, setCountAdded] = useState(0)
+         const [countAdded, setCountAdded] = useState(1)
     
         const { addItem } = useContext (CartContext)
       
    
 
-    const handleAdd = (count) => {
+    const handleAdd = (quantity) => {
       
-            console.log(`se agregaron ${count} ${name} ${price} ${stock}`)
+            console.log(`se agregaron ${quantity} ${name} ${price} ${stock}`)
      
-            addItem ({ id, name, price, count}) 
-            setCountAdded(count)
+            addItem ({ id, name, price, quantity}) 
+            setCountAdded(quantity)
 
 
     }   
